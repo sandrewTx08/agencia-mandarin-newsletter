@@ -1,0 +1,19 @@
+:root {
+  --BROWN: #ece2d6;
+  --ORANGE: #fc4c02;
+}
+
+.card-footer {
+  background-color: inherit !important;
+  border: 0 !important;
+}
+
+.card {
+  border: 0;
+}
+
+.card-hr {
+  border: 4px solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+  width: 60%;
+}
