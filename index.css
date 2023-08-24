@@ -11,7 +11,7 @@
   border-right: 0 !important;
   border-image: linear-gradient(to right, #1100ffee, #ff0000) 3 !important;
   width: 60%;
-  padding: 0 0 5px 0 !important;
+  padding: 0 0 12px 0 !important;
 }
 
 .card-body {
