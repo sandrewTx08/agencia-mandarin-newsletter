@@ -9,9 +9,20 @@
   border-top: 0 !important;
   border-left: 0 !important;
   border-right: 0 !important;
-  border-image: linear-gradient(to right, #1100ffee, #ff0000) 3 !important;
   width: 60%;
   padding: 0 0 12px 0 !important;
+}
+
+.card-footer-1 {
+  border-image: linear-gradient(to right, #d70042, #594193) 3 !important;
+}
+
+.card-footer-2 {
+  border-image: linear-gradient(to right, #7cc4ca, #7668a9) 3 !important;
+}
+
+.card-footer-3 {
+  border-image: linear-gradient(to right, #76c3c9, #46b386) 3 !important;
 }
 
 .card-body {
