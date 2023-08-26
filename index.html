@@ -15,10 +15,7 @@
   </head>
 
   <body>
-    <header
-      class="d-flex p-4 justify-content-between position-relative"
-      style="background-color: var(--BROWN); min-height: 140px"
-    >
+    <header class="d-flex p-4 justify-content-between position-relative">
       <div class="d-flex align-items-center">
         <a href="https://www.mandatrends.com.br/">
           <img class="img-fluid" src="img/002-001-001-005.png" alt="" />
@@ -74,11 +71,8 @@
       />
     </header>
 
-    <main
-      class="position-relative my-4 container mx-auto"
-      style="max-width: 768px"
-    >
-      <div class="row g-4">
+    <main class="position-relative my-4 container mx-auto">
+      <div class="row gx-3 gy-5">
         <div class="col-12">
           <div class="card h-100 gap-2">
             <a href="">
@@ -89,17 +83,18 @@
               />
             </a>
             <div class="card-body">
-              <h5 class="card-title h3">
-                NRF 2020: conheça os top 5 assuntos do evento.
-              </h5>
-              <p class="card-text text-secondary">
+              <h2 class="card-title mt-2">
+                <b>NRF 2020: conheça os top 5 assuntos do evento.</b>
+              </h2>
+              <div class="card-text text-secondary">
                 O maior evento sobre varejo do mundo mostrando as tendências,
                 oportunidades e inovações para o setor.
-              </p>
+              </div>
             </div>
-            <div class="card-footer card-footer-1">
+            <div class="card-footer small card-footer-1">
               <small class="text-muted fst-italic">Fonte: CMO ADOBE</small>
             </div>
+            <div class="card-hr card-hr-1"></div>
           </div>
         </div>
 
@@ -113,14 +108,15 @@
               />
             </a>
             <div class="card-body">
-              <h5 class="card-title h4">
-                Petição para colocar Kobe Bryant no logo da NBA.
-              </h5>
+              <h4 class="card-title mt-2">
+                <b>Petição para colocar Kobe Bryant no logo da NBA.</b>
+              </h4>
               <p class="card-text"></p>
             </div>
-            <div class="card-footer card-footer-2">
+            <div class="card-footer small">
               <small class="text-muted fst-italic">Fonte: Daily Mail</small>
             </div>
+            <div class="card-hr card-hr-2"></div>
           </div>
         </div>
 
@@ -134,14 +130,15 @@
               />
             </a>
             <div class="card-body">
-              <h5 class="card-title h4">
-                WhatsApp terá função de pagamento em 2020.
-              </h5>
+              <h4 class="card-title mt-2">
+                <b>WhatsApp terá função de pagamento em 2020.</b>
+              </h4>
               <p class="card-text"></p>
             </div>
-            <div class="card-footer card-footer-3">
+            <div class="card-footer small">
               <small class="text-muted fst-italic">Fonte: Proxxima</small>
             </div>
+            <div class="card-hr card-hr-3"></div>
           </div>
         </div>
       </div>
@@ -149,18 +146,25 @@
 
     <footer>
       <div
-        class="align-items-center d-flex justify-content-center"
-        style="height: 100px; background-color: var(--ORANGE)"
+        class="footer-brand align-items-center d-flex justify-content-center"
       >
         <a href="https://mandarin.com.br/">
           <img src="img/003-001.png" alt="" />
         </a>
       </div>
 
-      <div class="text-center p-3 bg-light small">
-        Copyright © Mandarin. Todos os direitos reservados. Caso não deseje
-        receber nossos e-mails, por favor
-        <a href="" target="_blank">clique aqui</a>.
+      <div
+        class="footer-copyright text-center p-5 bg-light d-flex align-items-center justify-content-center"
+      >
+        <span class="small">
+          Copyright © Mandarin. Todos os direitos reservados.
+
+          <br />
+
+          Caso não deseje receber nossos e-mails, por favor
+          <a class="text-decoration-none" href="" target="_blank">clique aqui</a
+          >.
+        </span>
       </div>
     </footer>
   </body>
